@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[giugee(k)]]></title>
-  <link href="http://electricg.github.io/blog/atom.xml" rel="self"/>
-  <link href="http://electricg.github.io/blog/"/>
-  <updated>2013-12-08T21:14:03+00:00</updated>
-  <id>http://electricg.github.io/blog/</id>
+  <link href="http://giugee.com/blog/atom.xml" rel="self"/>
+  <link href="http://giugee.com/blog/"/>
+  <updated>2013-12-08T21:19:45+00:00</updated>
+  <id>http://giugee.com/blog/</id>
   <author>
     <name><![CDATA[Giulia Alfonsi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[To My Next Employer: My Cover Letter]]></title>
-    <link href="http://electricg.github.io/blog/2013/11/12/to-my-next-employer-my-cover-letter/"/>
+    <link href="http://giugee.com/blog/2013/11/12/to-my-next-employer-my-cover-letter/"/>
     <updated>2013-11-12T22:38:00+00:00</updated>
-    <id>http://electricg.github.io/blog/2013/11/12/to-my-next-employer-my-cover-letter</id>
+    <id>http://giugee.com/blog/2013/11/12/to-my-next-employer-my-cover-letter</id>
     <content type="html"><![CDATA[<p>In a moment of personal demotivation I wrote this post on <a href="https://gist.github.com/electricg/6592295">GitHub</a> a few weeks back, here&rsquo;s a copy.</p>
 
 <hr />
@@ -55,9 +55,9 @@ Or just wave at me if you do not want to hire me, even if you are not hiring at 
   
   <entry>
     <title type="html"><![CDATA[CyanogenMod for Samsung Galaxy S II]]></title>
-    <link href="http://electricg.github.io/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii/"/>
+    <link href="http://giugee.com/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii/"/>
     <updated>2013-06-22T16:15:00+01:00</updated>
-    <id>http://electricg.github.io/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii</id>
+    <id>http://giugee.com/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii</id>
     <content type="html"><![CDATA[<p>This guide is for installing CyanogenMod 10.1 on Samsung Galaxy S II using Mac OS X (10.8.4 at the time of writing).</p>
 
 <h2>Get the files</h2>
@@ -127,9 +127,9 @@ Or just wave at me if you do not want to hire me, even if you are not hiring at 
   
   <entry>
     <title type="html"><![CDATA[Avoid a Particular Rule Repetion in SASS]]></title>
-    <link href="http://electricg.github.io/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass/"/>
+    <link href="http://giugee.com/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass/"/>
     <updated>2012-12-21T21:59:00+00:00</updated>
-    <id>http://electricg.github.io/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass</id>
+    <id>http://giugee.com/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass</id>
     <content type="html"><![CDATA[<p>A couple of months ago I came across <a href="http://stackoverflow.com/questions/13056757/avoiding-scss-rule-repetion/">this question</a> on Stack Overflow, about how to not repeat the <code>behavior</code> property (to use with <a href="http://css3pie.com/">CSS3PIE</a> for IE8 and below) in a selector if this was declared more than once due to the inclusion and use of multiple mixins (for like border-radius, box-shadow, etc).</p>
 
 <p>A couple of days ago, while I was working on a similar case, my issue was not how to avoid the repetition of the properties inside a single selector, but to not repeat it at all in the entire css files. This is my solution.</p>
@@ -222,9 +222,9 @@ Depending on the css and project, this rule can break the layout</p>
   
   <entry>
     <title type="html"><![CDATA[How to Install WordPress With Ssh]]></title>
-    <link href="http://electricg.github.io/blog/2012/10/22/how-to-install-wordpress-with-ssh/"/>
+    <link href="http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh/"/>
     <updated>2012-10-22T21:10:00+01:00</updated>
-    <id>http://electricg.github.io/blog/2012/10/22/how-to-install-wordpress-with-ssh</id>
+    <id>http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh</id>
     <content type="html"><![CDATA[<p>To avoid a waste of time downloading, unzipping and uploading the WordPress files, I used this method to install it through ssh on my 1&amp;1 hosting (the <em>$</em> symbol is just to show that it&rsquo;s a console command, there&rsquo;s no need to digit it):</p>
 
 <ol>

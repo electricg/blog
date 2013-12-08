@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://electricg.github.io/blog/sitemap.xml 
+Sitemap: http://giugee.com/blog/sitemap.xml 
