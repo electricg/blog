@@ -4,7 +4,7 @@
   <title><![CDATA[giugee(k)]]></title>
   <link href="http://giugee.com/blog/atom.xml" rel="self"/>
   <link href="http://giugee.com/blog/"/>
-  <updated>2015-07-12T14:57:27+00:00</updated>
+  <updated>2015-07-12T15:07:50+00:00</updated>
   <id>http://giugee.com/blog/</id>
   <author>
     <name><![CDATA[Giulia Alfonsi]]></name>
@@ -19,6 +19,8 @@
     <updated>2015-07-12T11:18:00+00:00</updated>
     <id>http://giugee.com/blog/2015/07/12/indie-web-camp-test</id>
     <content type="html"><![CDATA[<p>this is a test</p>
+
+<p>second</p>
 ]]></content>
   </entry>
   
