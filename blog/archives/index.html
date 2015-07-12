@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>How to Install WordPress With Ssh - giugee(k)</title>
+  <title>Blog Archive - giugee(k)</title>
   <meta name="author" content="Giulia Alfonsi">
 
   
-  <meta name="description" content="To avoid a waste of time downloading, unzipping and uploading the WordPress files, I used this method to install it through ssh on my 1&amp;1 hosting &hellip;">
+  <meta name="description" content="Blog Archive 2015 Indie Web Camp Test
+Jul 12 2015 2013 To My Next Employer: My Cover Letter
+Nov 12 2013 CyanogenMod for Samsung Galaxy S II
+Jun 22 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh">
+  <link rel="canonical" href="http://giugee.com/blog/blog/archives">
   <link href="/blog/favicon.png" rel="icon">
   <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/blog/atom.xml" rel="alternate" title="giugee(k)" type="application/atom+xml">
@@ -62,105 +65,77 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">How to Install WordPress With Ssh</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-22T20:10:00+00:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2012</time>
-        
-      </p>
+    <h1 class="entry-title">Blog Archive</h1>
     
   </header>
+  
+  <div id="blog-archives">
 
 
-<div class="entry-content"><p>To avoid a waste of time downloading, unzipping and uploading the WordPress files, I used this method to install it through ssh on my 1&amp;1 hosting (the <em>$</em> symbol is just to show that it&rsquo;s a console command, there&rsquo;s no need to digit it):</p>
 
-<ol>
-<li><p>Connect to your server via ssh</p>
+  
+  <h2>2015</h2>
 
-<pre><code> ssh yourusername@yourserver
-</code></pre></li>
-<li><p>Insert password when requested</p></li>
-<li><p>Once connected, download the latest version of <a href="http://wordpress.org/">WordPress</a></p>
+<article>
+  
+<h1><a href="/blog/2015/07/12/indie-web-camp-test/">Indie Web Camp Test</a></h1>
+<time datetime="2015-07-12T11:18:00+00:00" pubdate><span class='month'>Jul</span> <span class='day'>12</span> <span class='year'>2015</span></time>
 
-<pre><code> $ wget http://wordpress.org/latest.tar.gz
-</code></pre></li>
-<li><p>Unarchive the downloaded file, where the parameter x is for extract, z is for the gzip format used and f is to specify from which file</p>
 
-<pre><code> $ tar -zxf lastest.tar.gz
-</code></pre></li>
-<li><p>Rename the created wordpress folder to the desired one</p>
+</article>
 
-<pre><code> $ mv wordpress/ blog/
-</code></pre></li>
-<li><p>Follow the <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">Famous 5-Minute Install</a> skipping point 1 and 5, while for the point 3 and 4 work directly on the server. The file can be renamed through ssh</p>
 
-<pre><code> $ mv wp-config-sample.php wp-config.php
-</code></pre>
 
-<p>and edited using any console editor the server has installed, such as nano or vim.</p></li>
-</ol>
+  
+  <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/blog/2013/11/12/to-my-next-employer-my-cover-letter/">To My Next Employer: My Cover Letter</a></h1>
+<time datetime="2013-11-12T22:38:00+00:00" pubdate><span class='month'>Nov</span> <span class='day'>12</span> <span class='year'>2013</span></time>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii/">CyanogenMod for Samsung Galaxy S II</a></h1>
+<time datetime="2013-06-22T15:15:00+00:00" pubdate><span class='month'>Jun</span> <span class='day'>22</span> <span class='year'>2013</span></time>
+
+
+</article>
+
+
+
+  
+  <h2>2012</h2>
+
+<article>
+  
+<h1><a href="/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass/">Avoid a Particular Rule Repetion in SASS</a></h1>
+<time datetime="2012-12-21T21:59:00+00:00" pubdate><span class='month'>Dec</span> <span class='day'>21</span> <span class='year'>2012</span></time>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2012/10/22/how-to-install-wordpress-with-ssh/">How to Install WordPress With Ssh</a></h1>
+<time datetime="2012-10-22T20:10:00+00:00" pubdate><span class='month'>Oct</span> <span class='day'>22</span> <span class='year'>2012</span></time>
+
+
+</article>
 
 </div>
 
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Giulia Alfonsi</span></span>
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-22T20:10:00+00:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2012</time>
-      
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="/blog//twitter.com/share" class="twitter-share-button" data-url="http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh/" data-via="" data-counturl="http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh/" >Tweet</a>
-  
-  
-  
-</div>
-
-    
-    <p class="meta">
-      
-      
-        <a class="basic-alignment right" href="/blog/2012/12/21/avoid-a-particular-rule-repetion-in-sass/" title="Next Post: Avoid a particular rule repetion in SASS">Avoid a particular rule repetion in SASS &raquo;</a>
-      
-    </p>
-  </footer>
 </article>
 
 </div>

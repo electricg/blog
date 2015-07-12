@@ -4,7 +4,7 @@
   <title><![CDATA[giugee(k)]]></title>
   <link href="http://giugee.com/blog/atom.xml" rel="self"/>
   <link href="http://giugee.com/blog/"/>
-  <updated>2013-12-08T21:19:45+00:00</updated>
+  <updated>2015-07-12T14:38:44+00:00</updated>
   <id>http://giugee.com/blog/</id>
   <author>
     <name><![CDATA[Giulia Alfonsi]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Indie Web Camp Test]]></title>
+    <link href="http://giugee.com/blog/2015/07/12/indie-web-camp-test/"/>
+    <updated>2015-07-12T11:18:00+00:00</updated>
+    <id>http://giugee.com/blog/2015/07/12/indie-web-camp-test</id>
+    <content type="html"><![CDATA[<p>test13
+test14</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[To My Next Employer: My Cover Letter]]></title>
@@ -56,7 +66,7 @@ Or just wave at me if you do not want to hire me, even if you are not hiring at 
   <entry>
     <title type="html"><![CDATA[CyanogenMod for Samsung Galaxy S II]]></title>
     <link href="http://giugee.com/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii/"/>
-    <updated>2013-06-22T16:15:00+01:00</updated>
+    <updated>2013-06-22T15:15:00+00:00</updated>
     <id>http://giugee.com/blog/2013/06/22/cyanogenmod-for-samsung-galaxy-s-ii</id>
     <content type="html"><![CDATA[<p>This guide is for installing CyanogenMod 10.1 on Samsung Galaxy S II using Mac OS X (10.8.4 at the time of writing).</p>
 
@@ -223,7 +233,7 @@ Depending on the css and project, this rule can break the layout</p>
   <entry>
     <title type="html"><![CDATA[How to Install WordPress With Ssh]]></title>
     <link href="http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh/"/>
-    <updated>2012-10-22T21:10:00+01:00</updated>
+    <updated>2012-10-22T20:10:00+00:00</updated>
     <id>http://giugee.com/blog/2012/10/22/how-to-install-wordpress-with-ssh</id>
     <content type="html"><![CDATA[<p>To avoid a waste of time downloading, unzipping and uploading the WordPress files, I used this method to install it through ssh on my 1&amp;1 hosting (the <em>$</em> symbol is just to show that it&rsquo;s a console command, there&rsquo;s no need to digit it):</p>
 
